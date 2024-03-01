@@ -129,7 +129,7 @@ impl Screen {
             Font::from_bytes(font_bytes, fontdue::FontSettings::default()).unwrap()
         } else {
             Font::from_bytes(
-                include_bytes!("/home/zack/Downloads/nanotype/NANOTYPE.ttf") as &[u8],
+                include_bytes!("../NANOTYPE.ttf") as &[u8],
                 fontdue::FontSettings::default(),
             )
             .unwrap()
@@ -152,7 +152,7 @@ impl Screen {
             Font::from_bytes(font_bytes, fontdue::FontSettings::default()).unwrap()
         } else {
             Font::from_bytes(
-                include_bytes!("/home/zack/Downloads/nanotype/NANOTYPE.ttf") as &[u8],
+                include_bytes!("../NANOTYPE.ttf") as &[u8],
                 fontdue::FontSettings::default(),
             )
             .unwrap()
